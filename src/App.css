@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.h2 {
+  text-align: left;
+ }
+
+.MovieForm {
+  width: 50vw;
+  margin: 0 auto;
+  text-align: left;
+  margin-top: 70px;
+ }
+ 
+ 
+ .MovieForm .form-data {
+  display: flex;
+  justify-content: left;
+ }
+ 
+ .MovieForm .form-data label {
+  display: inline-block;
+  text-align: right;
+ }
+
+ .MovieForm .form-data input[type=submit] {
+   background-color:aquamarine;
+   margin-top: 20px;
+ }
+
+ .MovieForm .form-data input:not([type="submit"]) {
+  margin-left: 20px;
+  flex-grow: 1;
+ }
